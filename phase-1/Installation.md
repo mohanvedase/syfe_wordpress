@@ -1,4 +1,5 @@
-#  Setup K8-Cluster using kubeadm [K8 Version-->1.28.1]
+#  Setup K8-Cluster using kubeadm 
+
 
 ### 1. Update System Packages [On Master & Worker Node]
 
