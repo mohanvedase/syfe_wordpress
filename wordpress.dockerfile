@@ -1,0 +1,9 @@
+FROM wordpress:latest
+
+ENV WORDPRESS_DB_HOST=mysql-db:3306
+ENV WORDPRESS_DB_USER=wordpress
+ENV WORDPRESS_DB_PASSWORD=admin
+
+VOLUME /var/www/html
+
+EXPOSE 8080
